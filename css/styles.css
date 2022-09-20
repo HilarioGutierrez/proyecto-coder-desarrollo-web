@@ -1,0 +1,892 @@
+/* ---Reset css--- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+
+}
+
+html {
+    min-width: 320px;
+    max-width: 1900px;
+}
+
+body {
+    background-color: #f0e6d4ec;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+p {
+    font-family: 'Rubik', sans-serif
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+/* --- Header Portada --- */
+
+header {
+    height: 65vh;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../assets/img/portada-dog.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header h1 {
+
+    font-size: 3rem;
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: #64364b;
+    padding: 25px;
+    text-shadow: #422431 2px 4px 3px;
+    width: 100%;
+
+}
+
+Header h1 div a span {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+nav {
+    background-color: rgba(128, 128, 128, 0.589);
+
+}
+
+
+
+header nav div ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+    font-size: 1.3rem;
+    font-family: 'Antonio', sans-serif;
+
+}
+
+
+
+header nav div ul li {
+    padding: 0px 5px;
+    display: flex;
+    flex-wrap: wrap;
+
+    transition-duration: 0.3s;
+}
+
+header nav div ul li:hover {
+
+    color: #f7783d;
+    /* transform:rotate(3deg); */
+
+
+
+}
+
+/* --- Donacion --- */
+
+.donacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 180px;
+    margin: 30px 0px;
+    font-style: italic;
+    font-size: 1rem;
+
+
+
+}
+
+
+
+.donacion__background {
+    background-color: #F7DBA7;
+    padding: 5px;
+    width: 700px;
+    height: 180px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    font-size: 1rem;
+    color: #43281C;
+    font-family: 'Mukta', sans-serif;
+    border-radius: 600px 5px / 50px 30px;
+    border: solid;
+    border-color: 43281C;
+    line-height: 25px;
+}
+
+
+/* --- Section - ¿Porque Adoptar? ---*/
+
+.porque__adoptar {
+
+    width: 100%;
+    height: auto;
+    margin: 10px 0 10px 0;
+
+}
+
+
+h2 {
+
+    font-size: 2.2rem;
+    color: #43281C;
+    font-family: 'Dancing Script', cursive;
+    padding: 15px;
+    margin: 0 40px;
+    font-weight: 600;
+    text-shadow: #422431 1px 1px 1px;
+
+
+}
+
+.porque__adoptar--article {
+
+    display: flex;
+    flex-flow: row;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.porque__adoptar--article p {
+    align-self: stretch;
+    font-size: 1rem;
+    width: 1000px;
+    align-self: center;
+    line-height: 35px;
+}
+
+.porque__adoptar--article p::first-letter {
+
+    font-size: 1.2rem;
+    color: #581b00;
+}
+
+.porque__adoptar--img2 {
+    align-self: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 0px;
+    width: 350px;
+    height: auto;
+    border-radius: 100px 40px 100px 40px;
+
+
+}
+
+
+
+/* --- Section - Adoptar es un acto de amor --- */
+
+.familias {
+    margin: 10px auto 10px auto;
+
+
+}
+
+h3 {
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    color: #43281C;
+    padding: 15px;
+    margin: 0 0 10px 40px;
+    text-shadow: #422431 1px 1px 1px;
+
+}
+
+.familias__adopcion {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    height: 40%;
+    flex-wrap: nowrap;
+
+
+}
+
+/* .familias__adopcion--div{
+    width: 300px;
+    height: 300px;
+    
+} */
+
+.familias__adopcion--img1 {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+
+}
+
+.familias__adopcion--img2 {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    transition-delay: 0.2s
+}
+
+.familias__adopcion--img3 {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    transition-delay: 0.4s
+}
+
+.familias__adopcion--img4 {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    transition-delay: 0.6s
+}
+
+.familias__adopcion--img5 {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    transition-delay: 0.8s
+}
+
+
+
+/* --- Boton fijo para ir a arriba de la pagina ---  */
+
+.div_flecha-arriba {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flecha-arriba {
+    border: solid;
+    border-radius: 100px;
+    margin: 20px;
+    background-color: #42243182;
+    box-shadow: #422431;
+
+}
+
+
+
+
+/* --- Footer --- */
+
+footer {
+    background-color: #43281C;
+    height: 30%;
+    font-family: 'mukta', sans-serif;
+    font-weight: bolder;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+footer a:link {
+    color: #F7DBA7;
+}
+
+footer a:visited {
+    color: #F7DBA7;
+}
+
+footer ul {
+    list-style: none;
+    margin: 20px;
+    padding: 10px;
+}
+
+footer ul li {
+    margin: 10px;
+    padding: 5px;
+
+}
+
+footer i {
+    color: wheat;
+    padding: 10px;
+
+}
+
+/* --- PAGIONA "QUIEN SOMOS" --- */
+
+/* --- MISION // VISION // VALORES --- */
+
+.mision-vision-valres {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.quien__somos--background1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px 0;
+    margin: 10px 10px;
+    background-image: url(../assets/img/mascotas-quienes-somos.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.quien__somos--background1 p {
+    width: 510px;
+    align-self: left;
+    border-right: #F7DBA7 solid;
+    font-size: 1rem;
+    padding: 30px;
+}
+
+.quien__somos--background2 {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/img/quien-somos-deerecha.png);
+    background-position: right;
+    background-repeat: no-repeat;
+
+
+
+}
+
+.quien__somos--background2 h2 {
+    align-self: center;
+}
+
+.quien__somos--background2 p {
+    align-self: center;
+    width: 800px;
+    border-right: #F7DBA7 solid;
+    border-left: #F7DBA7 solid;
+    padding: 30px;
+    margin: 30px;
+    font-size: 1rem;
+}
+
+
+
+.quien__somos--background3 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    background-image: url(../assets/img/quien-somos-izq.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+.quien__somos--background3 h2 {
+    align-self: flex-end;
+    padding: 10px;
+    margin: 5px 200px 10px 0px;
+}
+
+.quien__somos--background3 p {
+    align-self: flex-end;
+    width: 500px;
+    border-left: #F7DBA7 solid;
+    padding: 30px;
+    margin: 5px 0px 10px 0px;
+    font-size: 1rem;
+}
+
+/* --- Quien Somos? // Marcas que ayudan --- */
+
+.marcas__ayuda {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f7dba749;
+    height: 200px;
+    width: 1000px;
+    align-items: center;
+    border-radius: 100px 100px / 50px 50px;
+    margin: 20px auto;
+
+}
+
+.marcas__ayuda--img {
+    margin: 5px;
+
+
+}
+
+.marcas__ayuda div {
+    display: flex;
+    flex-direction: center;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --- Adopción // Tarjetas --- */
+
+.adopcion {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.adopcion_tarjeta img {
+    width: 250px;
+    height: 180px;
+    align-self: center;
+
+}
+
+
+.adopcion_tarjeta {
+
+    display: flex;
+    flex-flow: column;
+    width: 300px;
+    height: 500px;
+    border: #4224319f solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    background: linear-gradient(to bottom right, rgba(255, 239, 166, 0.164) 0%, rgba(206, 152, 64, 0.5) 40%, rgba(255, 238, 166, 0.150) 90%);
+
+    box-shadow: 2px 1px 8px #090446;
+}
+
+
+
+
+.adopcion_tarjeta h3 {
+    font-family: 'rubik', sans-serif;
+}
+
+.adopcion_tarjeta p {
+
+    text-align: justify;
+    margin: 10px;
+}
+
+.adopcion_tarjeta a {
+    align-self: center;
+    border: #43281C solid;
+    background-color: #43281C;
+    color: #fae8c7;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+.adopcion_tarjeta a:hover {
+    font-size: 1rem;
+    font-style: italic;
+    color: #43281C;
+    background-color: #fae8c7;
+    box-shadow: 4px 3px 8px #090446;
+
+}
+
+
+
+/*  --- FORMULARIO DE ADOPCION --- */
+.form_adopcion {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+    margin: auto;
+
+}
+
+.form_adopcion div {
+    display: flex;
+    flex-flow: column;
+    width: 200px;
+    margin: 10px;
+    padding: 5px;
+    font-family: 'mukta', sans-serif;
+    color: #43281C;
+
+}
+
+div.mensaje_adicional {
+    width: 80%;
+
+}
+
+
+div.adopcion__noticias {
+    display: flex;
+    flex-direction: row;
+    width: 18%;
+    margin: auto;
+    justify-items: center;
+
+    transform: translate(25px);
+
+
+
+}
+
+label.adopcion__noticias--label {
+
+    width: 100%;
+    padding: 10px;
+    /* justify-self: center; */
+    font-size: 0.8rem;
+
+}
+
+
+/* --- DATOS UTILES --- */
+
+
+.datos_utiles {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 25% 25% 25% 25%;
+
+    grid-template-areas:
+        "donacion"
+        "zoonosis"
+        "veterinaria"
+        "peluqueria";
+
+}
+
+.donacion__datos-utiles {
+    grid-area: donacion;
+    grid-column: 1/5;
+    width: 800px;
+    height: 200px;
+    margin: 30px auto;
+    background-color: #B0A1BA;
+    line-height: 30px;
+    border: #3B0086 solid;
+    border-radius: 500px 10px / 80px;
+    font-size: 1.1rem;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    color: #090446
+}
+
+.donacion__datos--h4 {
+    margin: 10px;
+
+}
+
+.donacion__datos--p span {
+    text-decoration: underline;
+
+}
+
+.zoonosis {
+    grid-area: zoonosis;
+    grid-column: 3/5;
+    width: 800px;
+    height: 200px;
+    margin: 30px auto;
+    background-color: #B0A1BA;
+    line-height: 30px;
+    border: #3B0086 solid;
+    border-radius: 90px 900px / 80px;
+    font-size: 1.1rem;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    overflow-y: auto;
+    color: #090446
+}
+
+.zoonosis-h4 {
+    margin: 10px;
+}
+
+.zoonosis-img {
+    grid-column: 2;
+}
+
+.veterinaria {
+    grid-area: veterinaria;
+    grid-column: 1/2;
+    width: 800px;
+    height: 200px;
+    margin: 30px auto;
+    background-color: #B0A1BA;
+    line-height: 30px;
+    border: #3B0086 solid;
+    border-radius: 400px 55px / 40px;
+    font-size: 1.1rem;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    overflow-y: auto;
+    margin-left: 10px;
+    color: #090446
+}
+
+.veterinaria-h4 {
+    margin: 10px;
+}
+
+.veterinaria-img {
+    grid-column: 4;
+}
+
+.peluqueria {
+    grid-area: peluqueria;
+    grid-column: 4;
+    width: 600px;
+    height: 200px;
+    margin: 30px auto;
+    background-color: #B0A1BA;
+    line-height: 30px;
+    border: #3B0086 solid;
+    border-radius: 90px 900px / 80px;
+    font-size: 1.1rem;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    overflow-y: auto;
+    color: #090446
+}
+
+.peluqueria-h4 {
+    margin: 10px;
+}
+
+.peluqueria-img {
+    grid-column: 3;
+}
+
+input {
+    border-radius: 5px;
+}
+
+/* --- Contacto --- */
+
+.form_contacto {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    font-family: 'makuta', sans-serif;
+    color: #43281C;
+}
+
+.form_contacto div {
+    display: flex;
+    flex-flow: column;
+    width: 200px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.form_contacto input {
+    height: 20px;
+}
+
+#form_enviar_btn {
+    height: 25px;
+    width: 100px;
+}
+
+#form_mensaje {
+    width: 500px
+}
+
+.form_contacto .div_noticias {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+
+}
+
+#form__noticias-si {
+    align-self: center;
+    margin-right: 5px;
+}
+
+@media (min-width:340px) and (max-width:1200px) {
+
+    header h1 {
+        width: 50%;
+    }
+
+    nav div ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .donacion__background {
+        width: 90%;
+        max-width: 700px;
+    }
+
+    .porque__adoptar {
+        height: 100%;
+        margin-bottom: 50px;
+
+    }
+
+    .porque__adoptar--article {
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        height: auto;
+    }
+
+    .porque__adoptar--article p {
+        font-size: 1rem;
+        line-height: 20px;
+        width: 100%;
+    }
+
+    .porque__adoptar--img2 {
+        width: 50%;
+        height: 10%;
+        margin: 20px auto;
+        ;
+
+    }
+
+    .familias {
+
+        width: 95%;
+        height: 40%;
+        margin: auto;
+        overflow: auto;
+
+
+    }
+
+    .familias h3 {
+        margin: auto;
+        padding: 0;
+        margin-bottom: 20px;
+        grid-area: "h3";
+
+
+    }
+
+    .familias__adopcion {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33.33% 33.33%;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        flex-wrap: wrap;
+        margin: auto;
+
+
+    }
+
+    .familias__adopcion div {
+        display: flex;
+        width: auto;
+        height: auto;
+    }
+
+
+    .familias__adopcion--img1 {
+        width: 99.5%;
+        height: 99.5%;
+        margin: auto;
+
+    }
+
+    .familias__adopcion--img2 {
+        width: 99.5%;
+        height: 99.5%;
+        margin: auto;
+
+    }
+
+    .familias__adopcion--img3 {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+
+    }
+
+    .familias__adopcion--img4 {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+
+    }
+
+    .familias__adopcion--img5 {
+        display: none;
+    }
+
+
+    .form_adopcion {
+        align-items: flex-start;
+
+    }
+
+
+
+
+    div.adopcion__noticias {
+        margin: auto;
+        width: 95%;
+
+    }
+}
