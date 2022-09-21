@@ -57,14 +57,18 @@ header {
 
 header h1 {
 
-    font-size: 3rem;
-    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 5rem;
+    font-family: 'Indie Flower', cursive;
     color: #64364b;
     padding: 25px;
-    text-shadow: #422431 2px 4px 3px;
+    /* text-shadow: #422431 2px 4px 3px; */
     width: 100%;
 
 }
+
+
+
+
 
 Header h1 div a span {
     display: flex;
