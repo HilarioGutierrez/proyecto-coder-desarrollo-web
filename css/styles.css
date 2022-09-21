@@ -169,31 +169,47 @@ header nav div ul li:hover {
 
 h2 {
 
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     color: #43281C;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
     padding: 15px;
     margin: 0 40px;
     font-weight: 600;
-    text-shadow: #422431 1px 1px 1px;
+    display: flex;
+    flex-direction: column;
+    translate: 6%;
 
+}
 
+h2 span {
+    transform: translate(5%);
+
+}
+
+hr {
+    background-color: #f7783d;
+    width: 80%;
+    margin: auto;
+    height: 5px;
 }
 
 .porque__adoptar--article {
 
     display: flex;
     flex-flow: row;
-    margin-left: 30px;
+    margin: auto;
     width: 100%;
 }
 
 .porque__adoptar--article p {
     align-self: stretch;
     font-size: 1rem;
-    width: 1000px;
+    width: 50%;
+    margin: auto;
     align-self: center;
     line-height: 35px;
+    text-align: justify;
 }
 
 .porque__adoptar--article p::first-letter {
@@ -205,16 +221,57 @@ h2 {
 .porque__adoptar--img2 {
     align-self: center;
     justify-content: center;
-    margin: 20px;
+    margin: 20px 0 20px 20px;
     padding: 0px;
-    width: 350px;
+    width: 400px;
     height: auto;
-    border-radius: 100px 40px 100px 40px;
+    border-radius: 50%;
 
 
 }
 
+/* --- FORMA PARTE DE CUATRO PATAS --- */
 
+.forma-parte {
+    width: 30%;
+    height: 200px;
+    margin:50px 150px;
+    /* border: #f7783d73 solid; */
+    box-shadow: #f7783d69 0px 0px 30px 30px;
+    background-color: #f7783d69;
+    border-radius: 20%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    color: white;
+}
+
+.forma-parte__title {
+    text-align: center;
+    width: 90%;
+    align-self: center;
+    font-size: 1.2rem;
+
+}
+
+.forma-parte__text {
+    text-align: center;
+    margin: 8px auto;
+    width: 80%;
+    font-size: 1rem
+}
+
+.forma-parte__link {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border: #090446 solid;
+    width: 30%;
+    align-self: center;
+}
 
 /* --- Section - Adoptar es un acto de amor --- */
 
@@ -225,13 +282,13 @@ h2 {
 }
 
 h3 {
-    font-size: 2rem;
-    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    font-family: 'Quicksand', sans-serif;
     font-style: italic;
     color: #43281C;
     padding: 15px;
-    margin: 0 0 10px 40px;
-    text-shadow: #422431 1px 1px 1px;
+
+
 
 }
 
