@@ -42,16 +42,18 @@ main {
 /* --- Header Portada --- */
 
 header {
-    height: 65vh;
+    height: 100vh;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-image: url(../assets/img/portada-dog.jpg);
+    background-image: url(../assets/img/abrazo-hombre-perro.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+        position: relative;
+    z-index: 1;
 
 }
 
@@ -59,7 +61,8 @@ header h1 {
 
     font-size: 5rem;
     font-family: 'Indie Flower', cursive;
-    color: #64364b;
+    /* color: #64364b; */
+    color: #0E7C7B;
     padding: 25px;
     /* text-shadow: #422431 2px 4px 3px; */
     width: 100%;
@@ -81,6 +84,8 @@ Header h1 div a span {
 
 nav {
     background-color: rgba(128, 128, 128, 0.589);
+    height:4%;
+    align-items: center;
 
 }
 
@@ -92,9 +97,10 @@ header nav div ul {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    height: 30%;
+    height: 0%;
     font-size: 1.3rem;
     font-family: 'Antonio', sans-serif;
+    ;
 
 }
 
@@ -104,13 +110,15 @@ header nav div ul li {
     padding: 0px 5px;
     display: flex;
     flex-wrap: wrap;
+    color: #D4F4DD;
+    
 
     transition-duration: 0.3s;
 }
 
 header nav div ul li:hover {
 
-    color: #f7783d;
+    color: #0E7C7B;
     /* transform:rotate(3deg); */
 
 
@@ -199,14 +207,14 @@ hr {
     display: flex;
     flex-flow: row;
     margin: auto;
-    width: 100%;
+    width: 80%;
 }
 
 .porque__adoptar--article p {
     align-self: stretch;
     font-size: 1rem;
     width: 50%;
-    margin: auto;
+    margin: 10px auto;
     align-self: center;
     line-height: 35px;
     text-align: justify;
@@ -225,8 +233,7 @@ hr {
     padding: 0px;
     width: 400px;
     height: auto;
-    border-radius: 50%;
-
+    border-radius: 25%;
 
 }
 
@@ -243,7 +250,7 @@ hr {
     display: flex;
     flex-direction: column;
     align-self: flex-end;
-    color: white;
+    
 }
 
 .forma-parte__title {
@@ -273,6 +280,7 @@ hr {
     align-self: center;
 }
 
+
 /* --- Section - Adoptar es un acto de amor --- */
 
 .familias {
@@ -301,16 +309,11 @@ h3 {
 
 }
 
-/* .familias__adopcion--div{
-    width: 300px;
-    height: 300px;
-    
-} */
 
 .familias__adopcion--img1 {
     padding: 5px;
     margin: 10px;
-    border-radius: 50%;
+    border-radius: 20%;
     width: 280px;
     height: 280px;
 
@@ -319,7 +322,7 @@ h3 {
 .familias__adopcion--img2 {
     padding: 5px;
     margin: 10px;
-    border-radius: 50%;
+    border-radius: 20%;
     width: 280px;
     height: 280px;
     transition-delay: 0.2s
@@ -328,7 +331,7 @@ h3 {
 .familias__adopcion--img3 {
     padding: 5px;
     margin: 10px;
-    border-radius: 50%;
+    border-radius: 20%;
     width: 280px;
     height: 280px;
     transition-delay: 0.4s
@@ -337,7 +340,7 @@ h3 {
 .familias__adopcion--img4 {
     padding: 5px;
     margin: 10px;
-    border-radius: 50%;
+    border-radius: 20%;
     width: 280px;
     height: 280px;
     transition-delay: 0.6s
@@ -346,7 +349,7 @@ h3 {
 .familias__adopcion--img5 {
     padding: 5px;
     margin: 10px;
-    border-radius: 50%;
+    border-radius: 20%;
     width: 280px;
     height: 280px;
     transition-delay: 0.8s
@@ -357,7 +360,7 @@ h3 {
 /* --- Boton fijo para ir a arriba de la pagina ---  */
 
 .div_flecha-arriba {
-    position: fixed;
+    position: sticky;
     bottom: 0;
     right: 0;
     display: flex;
@@ -776,7 +779,7 @@ input {
     border-radius: 5px;
 }
 
-/* --- Contacto --- */
+/* --- CONTACTO --- */
 
 .form_contacto {
     display: flex;
@@ -818,6 +821,8 @@ input {
     align-self: center;
     margin-right: 5px;
 }
+
+
 
 @media (min-width:340px) and (max-width:1200px) {
 
