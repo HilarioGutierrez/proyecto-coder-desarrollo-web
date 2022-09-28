@@ -37,7 +37,7 @@ main {
 /* --- Header Portada --- */
 
 
-header {
+.header-index {
     height: 75vh;
     background-color: white;
     display: flex;
@@ -55,12 +55,13 @@ header {
 
 .header__title {
 
-    font-size: 5rem;
+    font-size: 5.1rem;
     font-family: 'Indie Flower', cursive;
     color: #0E7C7B;
-    width: 95%;
+    width: auto;
     text-shadow: #D4F4DD 5px 6px 1px;
     font-weight: bold;
+
 
 }
 
@@ -71,21 +72,24 @@ header {
     background-color: #b4adead7;
 }
 
-.container-fluid{
+.container {
     background-color: #d4f4ddd2;
+
+
 }
+
 
 .nombre-page {
     font-family: 'antonio', cursive;
-    font-size: 1.1rem;
-    color: rgba(0, 0, 0, 0.495);
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
 }
 
 .navbar-toggler {
     border: none;
 }
 
-.nav-item{
+.nav-item {
     font-family: 'Antonio', sans-serif;
     font-size: 1.3rem;
 }
@@ -101,6 +105,7 @@ header {
 .offcanvas-body {
     background-color: #D4F4DD;
 }
+
 /* --- Donacion --- */
 
 .donacion {
@@ -877,21 +882,10 @@ input {
         flex-direction: column;
     }
 
-    header h1 {
-        width: 100%;
-        text-align: center;
-    }
 
-    nav {
-        height: auto;
 
-    }
 
-    nav div ul {
-        display: flex;
-        flex-wrap: wrap;
-        width: auto;
-    }
+
 
     .donacion__background {
         width: 90%;
