@@ -36,19 +36,6 @@ main {
 
 /* --- Header Portada --- */
 
-/* .header-index {
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-image: url(../assets/img/abrazo-hombre-perro.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    z-index: 1;
-
-} */
 
 header {
     height: 75vh;
@@ -71,56 +58,49 @@ header {
     font-size: 5rem;
     font-family: 'Indie Flower', cursive;
     color: #0E7C7B;
-    width: 80%;
+    width: 95%;
     text-shadow: #D4F4DD 5px 6px 1px;
     font-weight: bold;
 
 }
 
-.header__nav.navbar.navbar-expand-lg.bg-0 {
-    background-color: rgba(128, 128, 128, 0);
-    height: auto;
-    align-items: flex-end;
-    width: 80%;
+
+/* --- NAVBAR / HAMBURGUESA --- */
+
+.navbar.fixed-top {
+    background-color: #b4adead7;
 }
 
+.container-fluid{
+    background-color: #d4f4ddd2;
+}
 
+.nombre-page {
+    font-family: 'antonio', cursive;
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.495);
+}
 
-.header__nav--ul {
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    height: 0%;
-    font-size: 1.3rem;
+.navbar-toggler {
+    border: none;
+}
+
+.nav-item{
     font-family: 'Antonio', sans-serif;
-    margin: 0;
-    padding: 0;
-
+    font-size: 1.3rem;
 }
 
-
-header nav div ul li {
-
-    display: flex;
-    flex-wrap: wrap;
-    color: #D4F4DD;
-    padding: 10px;
-
-
-    transition-duration: 0.3s;
-}
-
-header nav div ul li:hover {
-
+.nav-item :hover {
     color: #0E7C7B;
-    /* transform:rotate(3deg); */
-
-
-
 }
 
+.offcanvas-header {
+    background-color: #3a00866d;
+}
+
+.offcanvas-body {
+    background-color: #D4F4DD;
+}
 /* --- Donacion --- */
 
 .donacion {
@@ -319,6 +299,10 @@ h3 {
     flex-wrap: nowrap;
     justify-content: center;
 
+}
+
+.carousel {
+    margin: 50px;
 }
 
 .carousel.slide.fam {
@@ -885,24 +869,9 @@ input {
     margin-right: 5px;
 }
 
-@media (max-width:992px) {
-
-
-    .header__nav.navbar.navbar-expand-lg.bg-0 {
-        width: 60%;
-        
-        top: 0px;
-    }
-
-    .navbar-toggler {
-        transform: translate(0px ,-80px);
-        margin: 0 auto;
-        background-color: #b4adea84;
-    }
-
-}
 
 @media (min-width:340px) and (max-width:1200px) {
+
 
     header {
         flex-direction: column;

@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- JS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
@@ -56,37 +58,39 @@
 
         <h1 class="header__title"> CUATRO PATAS</h1>
 
-        <nav class="header__nav navbar navbar-expand-lg bg-0">
-            <div class="container-fluid">
+<!-- --- NAVBAR - HAMBURGUESA --- -->
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar fixed-top">
+            <div class="container-fluid">
+                <span class="nombre-page">Cuatro Patas</span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
-                <div class="header__nav--div collapse navbar-collapse" id="navbarNav">
-                    <ul class="header__nav--ul">
-
-                        <a href="./index.html">
-                            <li>Inicio</li>
-                        </a>
-                        <a href="./pages/quienes-somos.html">
-                            <li>¿Quienes Somos?</li>
-                        </a>
-
-                        <a href="./pages/adopcion.html">
-                            <li>Adopción</li>
-                        </a>
-
-                        <a href="./pages/datos-utiles.html">
-                            <li>Datos Útiles</li>
-                        </a>
-
-                        <a href="./pages/contacto.html">
-                            <li>Contacto</li>
-                        </a>
-
-                    </ul>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link " href="./index.html">INICIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/quienes-somos.html">¿QUIÉN SOMOS?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/adopcion.html">ADOPCIÓN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/datos-utiles.html">DATOS ÚTILES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+                            </li>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -175,7 +179,7 @@
 
     </main>
 
-    <section class="carosuel">
+    <section class="carousel">
 
         <h3 class="familias__h3">Ellos eligieron adopatar</h3>
 
@@ -220,10 +224,10 @@
 
     </section>
 
-    <div class="div_flecha-arriba">
+    <!-- <div class="div_flecha-arriba">
         <a href="#header"><img src="./assets/img/arriba.png" alt="flecha hacia el la parte superior de la web"
                 class="flecha-arriba" width="50" height="50"> </a>
-    </div>
+    </div> -->
 
 
     <footer class="footer">
