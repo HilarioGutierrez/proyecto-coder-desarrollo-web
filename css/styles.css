@@ -8,7 +8,7 @@
 
 body {
     background-color: #d4f4dd9f;
-    overflow-x: hidden;
+
 
 }
 
@@ -29,10 +29,7 @@ p {
     font-family: 'Rubik', sans-serif
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-}
+
 
 /* --- Header Portada --- */
 
@@ -72,7 +69,7 @@ main {
     background-color: #b4adead7;
 }
 
-.container {
+.nav-bar {
     background-color: #d4f4ddd2;
 
 
@@ -152,14 +149,24 @@ h4 {
 
 /* --- Section - ¿Porque Adoptar? ---*/
 
-.porque__adoptar {
+/* .porque__adoptar {
 
-    width: 100%;
+    width: 80%;
     height: auto;
     margin: 10px 0 10px 0;
 
+} */
+
+
+.porque__adoptar{
+    width: 80%;
 }
 
+.imagen1 {
+    margin: auto;
+    width: 50%;
+    max-width: 400px;
+}
 
 h2 {
 
@@ -172,7 +179,6 @@ h2 {
     font-weight: 600;
     display: flex;
     flex-direction: column;
-    translate: 6%;
 
 }
 
@@ -188,31 +194,31 @@ hr {
     height: 5px;
 }
 
-.porque__adoptar--article {
+/* .porque__adoptar--article {
 
     display: flex;
     flex-flow: row;
     margin: auto;
     width: 80%;
-}
+} */
 
-.porque__adoptar--article p {
+/* .porque__adoptar--article p {
     align-self: stretch;
     font-size: 1rem;
-    width: 50%;
+    width: 10;
     margin: 10px auto;
     align-self: center;
     line-height: 35px;
     text-align: justify;
-}
+} */
 
-.porque__adoptar--article p::first-letter {
+/* .porque__adoptar--article p::first-letter {
 
     font-size: 1.2rem;
     color: #581b00;
-}
+} */
 
-.porque__adoptar--img2 {
+/* .porque__adoptar--img2 {
     align-self: center;
     justify-content: center;
     margin: 20px 0 20px 20px;
@@ -221,21 +227,20 @@ hr {
     height: auto;
     border-radius: 25%;
 
-}
+} */
 
 /* --- FORMA PARTE DE CUATRO PATAS --- */
 
 .forma-parte {
     width: 30%;
-    height: 200px;
-    margin: 50px 150px;
+    height: auto;
+    margin: 150px auto;
     border: 1px #B4ADEA solid;
     box-shadow: #B4ADEA 0px 0px 30px 30px;
     background-color: #B4ADEA;
     border-radius: 20%;
     display: flex;
     flex-direction: column;
-    align-self: flex-end;
 
 }
 
@@ -882,11 +887,6 @@ input {
         flex-direction: column;
     }
 
-
-
-
-
-
     .donacion__background {
         width: 90%;
         max-width: 700px;
@@ -922,7 +922,6 @@ input {
     .forma-parte {
         height: auto;
         width: 70%;
-        ;
         align-self: center;
     }
 
@@ -1078,3 +1077,4 @@ input {
         flex-direction: column;
     }
 }
+
