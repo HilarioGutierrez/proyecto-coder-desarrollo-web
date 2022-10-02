@@ -66,7 +66,8 @@ p {
 /* --- NAVBAR / HAMBURGUESA --- */
 
 .cuatro-patas-nav :hover {
-    color: red}
+    color: red
+}
 
 .navbar.fixed-top {
     background-color: #b4adead7;
@@ -149,7 +150,7 @@ h4 {
     text-decoration: underline;
 }
 
-.modal-ayuda{
+.modal-ayuda {
     background-color: #b4adea8f;
     font-size: 1rem;
     font-family: 'mukta', sans-serif;
@@ -158,11 +159,93 @@ h4 {
     border-radius: 30px;
     border: none;
     box-shadow: #3B0086 2px 2px 5px;
-    
+    -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+    animation: heartbeat 1.5s ease-in-out infinite both;
 }
+
+
+@-webkit-keyframes heartbeat {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    10% {
+        -webkit-transform: scale(0.91);
+        transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    17% {
+        -webkit-transform: scale(0.98);
+        transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    33% {
+        -webkit-transform: scale(0.87);
+        transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    45% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+}
+
+@keyframes heartbeat {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    10% {
+        -webkit-transform: scale(0.91);
+        transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    17% {
+        -webkit-transform: scale(0.98);
+        transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    33% {
+        -webkit-transform: scale(0.87);
+        transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    45% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+}
+
+
 /* --- Section - ¿Porque Adoptar? ---*/
 
-.porque__adoptar{
+.porque__adoptar {
     width: 80%;
 }
 
@@ -434,15 +517,15 @@ iframe {
 /* --- MISION // VISION // VALORES --- */
 
 
-.quien__somos--img{
-width: 100%;
-object-fit: contain;
+.quien__somos--img {
+    width: 100%;
+    object-fit: contain;
 }
 
-.quienes__somos--img2{
+.quienes__somos--img2 {
     object-fit: contain;
     width: 50%;
-    
+
 
 }
 
@@ -452,18 +535,18 @@ object-fit: contain;
 }
 
 
-.marcas__ayuda{
-background-color: #B4ADEA;
-border-radius: 20px;
-border: #44344f67 solid;
-width: 80%;
+.marcas__ayuda {
+    background-color: #B4ADEA;
+    border-radius: 20px;
+    border: #44344f67 solid;
+    width: 80%;
 
 }
 
 .marcas__ayuda--img {
-max-width: 120px;
-padding: 10px;
-justify-content: space-between;
+    max-width: 120px;
+    padding: 10px;
+    justify-content: space-between;
 
 }
 
@@ -502,9 +585,43 @@ justify-content: space-between;
     padding: 10px;
     font-size: 1rem;
     background: linear-gradient(45deg, rgba(14, 124, 122, 0.603) 0%, rgba(180, 173, 234, 0.6) 69%, rgba(91, 78, 119, 0.600) 100%);
-
     box-shadow: 2px 1px 20px #090446;
+    -webkit-animation: rotate-in-2-fwd-ccw 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: rotate-in-2-fwd-ccw 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
 }
+
+
+@-webkit-keyframes rotate-in-2-fwd-ccw {
+    0% {
+        -webkit-transform: translateZ(-200px) rotate(45deg);
+        transform: translateZ(-200px) rotate(45deg);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateZ(0) rotate(0);
+        transform: translateZ(0) rotate(0);
+        opacity: 1;
+    }
+}
+
+@keyframes rotate-in-2-fwd-ccw {
+    0% {
+        -webkit-transform: translateZ(-200px) rotate(45deg);
+        transform: translateZ(-200px) rotate(45deg);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateZ(0) rotate(0);
+        transform: translateZ(0) rotate(0);
+        opacity: 1;
+    }
+}
+
+
+
 
 
 
@@ -766,7 +883,7 @@ input {
     height: auto;
     width: 100px;
     background-color: #B4ADEA;
-    border: #0E7C7B solid ;
+    border: #0E7C7B solid;
 }
 
 
@@ -778,10 +895,10 @@ input {
 }
 
 #form__noticias-si {
-width: auto;
+    width: auto;
 }
 
-.noticias-label{
+.noticias-label {
     font-size: 0.8rem;
 }
 
@@ -983,4 +1100,3 @@ width: auto;
         flex-direction: column;
     }
 }
-
