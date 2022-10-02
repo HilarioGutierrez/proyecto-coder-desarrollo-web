@@ -26,7 +26,7 @@ a:visited {
 }
 
 p {
-    font-family: 'Rubik', sans-serif
+    font-family: 'Rubik', sans-serif;
 }
 
 
@@ -64,6 +64,9 @@ p {
 
 
 /* --- NAVBAR / HAMBURGUESA --- */
+
+.cuatro-patas-nav :hover {
+    color: red}
 
 .navbar.fixed-top {
     background-color: #b4adead7;
@@ -146,26 +149,31 @@ h4 {
     text-decoration: underline;
 }
 
-
+.modal-ayuda{
+    background-color: #b4adea8f;
+    font-size: 1rem;
+    font-family: 'mukta', sans-serif;
+    color: black;
+    width: 40%;
+    border-radius: 30px;
+    border: none;
+    box-shadow: #3B0086 2px 2px 5px;
+    
+}
 /* --- Section - ¿Porque Adoptar? ---*/
-
-/* .porque__adoptar {
-
-    width: 80%;
-    height: auto;
-    margin: 10px 0 10px 0;
-
-} */
-
 
 .porque__adoptar{
     width: 80%;
 }
 
-.imagen1 {
+.imagen-index {
     margin: auto;
     width: 50%;
     max-width: 400px;
+}
+
+.text-justify {
+    text-align: justify;
 }
 
 h2 {
@@ -194,40 +202,6 @@ hr {
     height: 5px;
 }
 
-/* .porque__adoptar--article {
-
-    display: flex;
-    flex-flow: row;
-    margin: auto;
-    width: 80%;
-} */
-
-/* .porque__adoptar--article p {
-    align-self: stretch;
-    font-size: 1rem;
-    width: 10;
-    margin: 10px auto;
-    align-self: center;
-    line-height: 35px;
-    text-align: justify;
-} */
-
-/* .porque__adoptar--article p::first-letter {
-
-    font-size: 1.2rem;
-    color: #581b00;
-} */
-
-/* .porque__adoptar--img2 {
-    align-self: center;
-    justify-content: center;
-    margin: 20px 0 20px 20px;
-    padding: 0px;
-    width: 400px;
-    height: auto;
-    border-radius: 25%;
-
-} */
 
 /* --- FORMA PARTE DE CUATRO PATAS --- */
 
@@ -459,111 +433,38 @@ iframe {
 
 /* --- MISION // VISION // VALORES --- */
 
-.mision-vision-valres {
-    display: flex;
-    flex-direction: row;
+
+.quien__somos--img{
+width: 100%;
+object-fit: contain;
+}
+
+.quienes__somos--img2{
+    object-fit: contain;
+    width: 50%;
+    
 
 }
 
-.quien__somos--background1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 10px 0;
-    margin: 10px 10px;
-    background-image: url(../assets/img/mascotas-quienes-somos.png);
-    background-position: right;
-    background-repeat: no-repeat;
-}
-
-.quien__somos--background1 p {
-    width: 510px;
-    align-self: left;
-    border-right: #F7DBA7 solid;
-    font-size: 1rem;
-    padding: 30px;
-}
-
-.quien__somos--background2 {
-    display: flex;
-    flex-direction: column;
-    background-image: url(../assets/img/quien-somos-deerecha.png);
-    background-position: right;
-    background-repeat: no-repeat;
-
-
+.quienes__somos--img3 {
+    max-width: 300px;
 
 }
 
-.quien__somos--background2 h2 {
-    align-self: center;
-}
 
-.quien__somos--background2 p {
-    align-self: center;
-    width: 800px;
-    border-right: #F7DBA7 solid;
-    border-left: #F7DBA7 solid;
-    padding: 30px;
-    margin: 30px;
-    font-size: 1rem;
-}
-
-
-
-.quien__somos--background3 {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    margin: 10px;
-    background-image: url(../assets/img/quien-somos-izq.png);
-    background-position: cover;
-    background-repeat: no-repeat;
-}
-
-.quien__somos--background3 h2 {
-    align-self: flex-end;
-    padding: 10px;
-    margin: 5px 200px 10px 0px;
-}
-
-.quien__somos--background3 p {
-    align-self: flex-end;
-    width: 500px;
-    border-left: #F7DBA7 solid;
-    padding: 30px;
-    margin: 5px 0px 10px 0px;
-    font-size: 1rem;
-}
-
-/* --- Quien Somos? // Marcas que ayudan --- */
-
-.marcas__ayuda {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: #f7dba749;
-    height: 200px;
-    width: 1000px;
-    align-items: center;
-    border-radius: 100px 100px / 50px 50px;
-    margin: 20px auto;
+.marcas__ayuda{
+background-color: #B4ADEA;
+border-radius: 20px;
+border: #44344f67 solid;
+width: 80%;
 
 }
 
 .marcas__ayuda--img {
-    margin: 5px;
+max-width: 120px;
+padding: 10px;
+justify-content: space-between;
 
-
-}
-
-.marcas__ayuda div {
-    display: flex;
-    flex-direction: center;
-    margin: auto;
-    padding: auto;
-    justify-content: center;
-    align-items: center;
 }
 
 /* --- Adopción // Tarjetas --- */
@@ -575,6 +476,8 @@ iframe {
     border-radius: 10px;
     justify-content: center;
     align-items: center;
+    width: 90%;
+    margin: auto;
 
 }
 
@@ -594,7 +497,6 @@ iframe {
     flex-flow: column;
     width: 300px;
     height: 500px;
-    ;
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
@@ -603,7 +505,6 @@ iframe {
 
     box-shadow: 2px 1px 20px #090446;
 }
-
 
 
 
@@ -862,8 +763,10 @@ input {
 }
 
 #form_enviar_btn {
-    height: 25px;
+    height: auto;
     width: 100px;
+    background-color: #B4ADEA;
+    border: #0E7C7B solid ;
 }
 
 
@@ -875,8 +778,11 @@ input {
 }
 
 #form__noticias-si {
-    align-self: center;
-    margin-right: 5px;
+width: auto;
+}
+
+.noticias-label{
+    font-size: 0.8rem;
 }
 
 

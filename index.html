@@ -10,6 +10,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
+
+    <!-- CSS -->
     <link rel="stylesheet" href="./css/styles.css">
 
     <!-- font h1 -->
@@ -105,6 +107,9 @@
 
         <!-- ---- BANNER DONACION ---- -->
 
+
+
+
         <section class="donacion">
 
             <div class="donacion__background">
@@ -120,18 +125,63 @@
 
         </section>
 
+
+        <!-- Button trigger modal -->
+        <div class="d-flex">
+            <button type="button" class=" modal-ayuda container btn-dark" data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop" data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom">
+                <img src="./assets/img/perro-ayuda.jpg" alt="" class="modal-img w-75 m-3"> 
+                <p>Panchi necesita tu ayuda!</p>
+                <span>HACE CLICK</span>
+            </button>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Panchis necesitas ayuda</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Necesita realizarse una operacion para poder sanarse y seguir jugando con sus amigos.</p>
+                        <p>Para ello neecesitamos la ayuda de todos.</p>
+                        <br>
+                        <p class="donacion__datos--p"> <strong><span> Banco Galicia CBU:</span></strong> 000095474738264
+                        </p>
+                        <p class="donacion__datos--p"> <strong><span>Alias:</span></strong> Mate.Computadora.Musica</p>
+                        <p class="donacion__datos--p"> <strong><span> Mercado Pago CVU:</span></strong> 02390304802394
+                        </p>
+                        <p class="donacion__datos--p"> <strong><span> Mercado Pago Alias:</span></strong>
+                            lapiz.goma.mouse</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">
+                            <a href="https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c9380848383e02f0183998a45f91208" target="_blank" class="text-light">DA TU AYUDA</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
         <h2 class="text-star m-5">¿Porque adoptar?</h2>
         <hr>
 
         <section class="container">
 
-            <article class="container d-flex flex-column flex-md-row justify-content-center align-items-center">
+            <article class="d-flex flex-column flex-md-row justify-content-center align-items-center">
 
                 <img src="./assets/img/manos-patas.jpg" alt="Patas de mascotas sobre la mano de una persona"
-                    class="imagen1 m-4 h-75 rounded-pill order-lg-5 " data-aos="fade"
+                    class="imagen-index m-4 h-75 rounded-pill order-lg-5 " data-aos="fade-up"
                     data-aos-anchor-placement="top-center">
 
-                <p class=" h-50 col-7 m-4 text-center text-md-start order-lg-1 text-sm-center lh-lg" data-aos-anchor-placement="top-center">
+                <p class="text-justify h-50 col-7 m-4  text-md-start order-lg-1  lh-lg"
+                    data-aos-anchor-placement="top-center">
 
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit quidem magnam veritatis molestiae
                     hic
@@ -152,7 +202,7 @@
         </section>
 
 
-        <div class="forma-parte" data-aos="fade-down">
+        <div class="forma-parte" data-aos="fade-up">
 
             <h3 class="forma-parte__title">Fomra parte de Cuatro Patas</h3>
 
@@ -212,10 +262,10 @@
 
     </section>
 
-    <!-- <div class="div_flecha-arriba">
+    <div class="div_flecha-arriba">
         <a href="#header"><img src="./assets/img/arriba.png" alt="flecha hacia el la parte superior de la web"
                 class="flecha-arriba" width="50" height="50"> </a>
-    </div> -->
+    </div>
 
 
     <footer class="footer">
