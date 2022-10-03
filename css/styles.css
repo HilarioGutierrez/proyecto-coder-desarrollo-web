@@ -337,12 +337,7 @@ hr {
 
 /* --- Section - Eligieron adoptar --- */
 
-.familias {
-    margin: 10px auto 10px auto;
-    width: 80%;
 
-
-}
 
 h3 {
     font-size: 1.5rem;
@@ -359,89 +354,11 @@ h3 {
     text-decoration: underline;
 }
 
-.familias__adopcion {
-    display: flex;
-    width: 100%;
-    height: 40%;
-    flex-wrap: nowrap;
-    justify-content: center;
-
+#carouselExampleIndicators{
+    max-width: 600px;
 }
 
-.carousel {
-    margin: 50px;
-}
 
-.carousel.slide.fam {
-    width: 600px;
-    margin: 0 auto;
-    overflow: hidden;
-
-}
-
-.carousel-inner {
-    width: auto;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-
-}
-
-.carousel-item.active {
-    width: auto;
-    height: auto;
-    margin: 0 auto;
-}
-
-.familias__adopcion--img1 {
-
-    border-radius: 20%;
-    width: 540px;
-    height: 400px;
-    object-fit: contain;
-
-}
-
-.familias__adopcion--img2 {
-
-    border-radius: 20%;
-    width: 540px;
-    height: 400px;
-    ;
-}
-
-.familias__adopcion--img3 {
-
-    border-radius: 20%;
-    width: 540px;
-    height: 400px;
-    object-fit: contain;
-}
-
-.familias__adopcion--img4 {
-
-    border-radius: 20%;
-    width: 540px;
-    height: 400px;
-    object-fit: contain;
-}
-
-.familias__adopcion--img5 {
-
-    border-radius: 20%;
-    width: 540px;
-    height: 400px;
-    object-fit: contain;
-}
-
-.familias__adopcion--img6 {
-
-    border-radius: 20%;
-    width: 600px;
-    height: 500px;
-    object-fit: contain;
-
-}
 
 
 /* --- Boton fijo para ir a arriba de la pagina ---  */
@@ -514,20 +431,6 @@ iframe {
 
 /* --- PAGIONA "QUIEN SOMOS" --- */
 
-/* --- MISION // VISION // VALORES --- */
-
-
-.quien__somos--img {
-    width: 100%;
-    object-fit: contain;
-}
-
-.quienes__somos--img2 {
-    object-fit: contain;
-    width: 50%;
-
-
-}
 
 .quienes__somos--img3 {
     max-width: 300px;
@@ -705,152 +608,6 @@ label.adopcion__noticias--label {
 
 }
 
-
-/* --- DATOS UTILES --- */
-
-
-.datos_utiles {
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 20% 20% 20% 20% 20%;
-
-    grid-template-areas:
-        "donacion"
-        "zoonosis"
-        "veterinaria"
-        "peluqueria"
-        "guarderia";
-
-}
-
-.donacion__datos-utiles {
-    grid-area: donacion;
-    grid-column: 1/5;
-    width: 800px;
-    height: 200px;
-    margin: 30px auto;
-    background-color: #B0A1BA;
-    line-height: 30px;
-    border: #3B0086 solid;
-    border-radius: 500px 10px / 80px;
-    font-size: 1.1rem;
-    font-family: 'Rubik', sans-serif;
-    text-align: center;
-    color: #090446
-}
-
-.donacion__datos--h4 {
-    margin: 10px;
-
-}
-
-.donacion__datos--p span {
-    text-decoration: underline;
-
-}
-
-.zoonosis {
-    grid-area: zoonosis;
-    grid-column: 3/5;
-    width: 800px;
-    height: 200px;
-    margin: 30px auto;
-    background-color: #B0A1BA;
-    line-height: 30px;
-    border: #3B0086 solid;
-    border-radius: 90px 900px / 80px;
-    font-size: 1.1rem;
-    font-family: 'Rubik', sans-serif;
-    text-align: center;
-    overflow-y: auto;
-    color: #090446
-}
-
-.zoonosis-h4 {
-    margin: 10px;
-}
-
-.zoonosis-img {
-    grid-column: 2;
-}
-
-.veterinaria {
-    grid-area: veterinaria;
-    grid-column: 1/2;
-    width: 800px;
-    height: 200px;
-    margin: 30px auto;
-    background-color: #B0A1BA;
-    line-height: 30px;
-    border: #3B0086 solid;
-    border-radius: 400px 55px / 40px;
-    font-size: 1.1rem;
-    font-family: 'Rubik', sans-serif;
-    text-align: center;
-    overflow-y: auto;
-    margin-left: 10px;
-    color: #090446
-}
-
-.veterinaria-h4 {
-    margin: 10px;
-}
-
-.veterinaria-img {
-    grid-column: 4;
-}
-
-.peluqueria {
-    grid-area: peluqueria;
-    grid-column: 4;
-    width: 600px;
-    height: 200px;
-    margin: 30px auto;
-    background-color: #B0A1BA;
-    line-height: 30px;
-    border: #3B0086 solid;
-    border-radius: 90px 900px / 80px;
-    font-size: 1.1rem;
-    font-family: 'Rubik', sans-serif;
-    text-align: center;
-    overflow-y: auto;
-    color: #090446
-}
-
-.peluqueria-h4 {
-    margin: 10px;
-}
-
-.peluqueria-img {
-    grid-column: 3;
-}
-
-.guarderia {
-    grid-area: guarderia;
-    grid-column: 2/5;
-    width: 680px;
-    height: 200px;
-    margin: auto;
-    border: #3B0086 solid;
-    border-radius: 800px 50px / 50px;
-    font-size: 1.1rem;
-    font-family: 'Rubik', sans-serif;
-    text-align: center;
-    overflow-y: auto;
-    color: #090446;
-    background-color: #B0A1BA;
-    line-height: 30px;
-
-}
-
-.guarderia-h4 {
-    margin: 10px;
-}
-
-input {
-    border-radius: 5px;
-}
-
 /* --- CONTACTO --- */
 
 .form_contacto {
@@ -910,37 +667,7 @@ input {
         flex-direction: column;
     }
 
-    .donacion__background {
-        width: 90%;
-        max-width: 700px;
-    }
 
-    .porque__adoptar {
-        height: 100%;
-        margin-bottom: 50px;
-
-    }
-
-    .porque__adoptar--article {
-        flex-direction: column;
-        width: 80%;
-        margin: auto;
-        height: auto;
-    }
-
-    .porque__adoptar--article p {
-        font-size: 1rem;
-        line-height: 20px;
-        width: 100%;
-    }
-
-    .porque__adoptar--img2 {
-        width: 50%;
-        height: 10%;
-        margin: 20px auto;
-        ;
-
-    }
 
     .forma-parte {
         height: auto;
