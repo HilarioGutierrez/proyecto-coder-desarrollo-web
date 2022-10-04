@@ -110,10 +110,9 @@ p {
 /* --- Donacion --- */
 
 
+
 .donacion__background {
     background-color: #0E7C7B;
-    padding: 5px;
-    max-width: 700px;
     height: auto;
     text-align: center;
     font-size: 1rem;
@@ -123,6 +122,13 @@ p {
     border: #44344F;
     border-color: 43281C;
     line-height: 25px;
+    width: 50%;
+}
+
+@media (max-width:768px){
+    .donacion__background {
+        font-size: 0.8rem;
+    }
 }
 
 h4 {
