@@ -101,6 +101,13 @@ h3 {
 .offcanvas-header {
   background-color: rgba(58, 0, 134, 0.4274509804);
 }
+.offcanvas-header-body {
+  background-color: #0E7C7B;
+}
+
+.offcanvas-body {
+  background-color: rgba(212, 244, 221, 0.8235294118);
+}
 
 .donacion__background {
   background-color: #0E7C7B;
