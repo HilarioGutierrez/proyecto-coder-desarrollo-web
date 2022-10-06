@@ -501,6 +501,7 @@ footer iframe {
   color: #5B4E77;
   background-color: #D4F4DD;
   box-shadow: 4px 3px 8px #090446;
+  transition: 0.2s;
 }
 
 .form_adopcion {
