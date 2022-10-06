@@ -1,0 +1,35 @@
+.header {
+    height: 75vh;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(../assets/img/abrazo-hombre-perro2.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+
+
+
+&__title {
+
+    font-size: 5.1rem;
+    font-family: 'Indie Flower', cursive;
+    color: #0E7C7B;
+    width: auto;
+    text-shadow: #D4F4DD 5px 6px 1px;
+    font-weight: bold;
+
+}
+
+}
+
+@media (min-width:340px) and (max-width:1200px) {
+
+    header {
+        flex-direction: column;
+    }
+}

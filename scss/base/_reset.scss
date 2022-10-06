@@ -1,0 +1,52 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #d4f4dd9f;
+
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
+}
+
+h2 {
+
+    font-size: 2.5rem;
+    color: #5B4E77;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    padding: 15px;
+    margin: 0 40px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;
+    color: #5B4E77;
+    padding: 15px;
+}
+

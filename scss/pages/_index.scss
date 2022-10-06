@@ -1,0 +1,255 @@
+.donacion__background {
+    background-color: #0E7C7B;
+    height: auto;
+    text-align: center;
+    font-size: 1rem;
+    color: #D4F4DD;
+    font-family: 'Mukta', sans-serif;
+    border-radius: 600px 5px / 50px 30px;
+    border: #44344F;
+    border-color: 43281C;
+    line-height: 25px;
+    width: 50%;
+}
+
+@media (max-width:768px) {
+    .donacion__background {
+        font-size: 0.8rem;
+    }
+}
+
+h4 {
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.modal-ayuda {
+    background-color: #b4adea8f;
+    font-size: 1rem;
+    font-family: 'mukta', sans-serif;
+    color: black;
+    width: 40%;
+    border-radius: 30px;
+    border: none;
+    box-shadow: #3B0086 2px 2px 5px;
+    -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+    animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+
+@-webkit-keyframes heartbeat {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    10% {
+        -webkit-transform: scale(0.91);
+        transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    17% {
+        -webkit-transform: scale(0.98);
+        transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    33% {
+        -webkit-transform: scale(0.87);
+        transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    45% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+}
+
+@keyframes heartbeat {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    10% {
+        -webkit-transform: scale(0.91);
+        transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    17% {
+        -webkit-transform: scale(0.98);
+        transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    33% {
+        -webkit-transform: scale(0.87);
+        transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    45% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+}
+
+.porque__adoptar {
+    width: 80%;
+}
+
+.imagen-index {
+    margin: auto;
+    width: 50%;
+    max-width: 400px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+hr {
+    background-color: #B4ADEA;
+    width: 80%;
+    margin: auto;
+    height: 5px;
+}
+
+h2 span {
+    transform: translate(5%);
+}
+
+.forma-parte {
+    width: 30%;
+    height: auto;
+    margin: 150px auto;
+    border: 1px #B4ADEA solid;
+    box-shadow: #B4ADEA 0px 0px 30px 30px;
+    background-color: #B4ADEA;
+    border-radius: 20%;
+    display: flex;
+    flex-direction: column;
+
+
+
+    &__title {
+        text-align: center;
+        width: 90%;
+        align-self: center;
+        font-size: 1.2rem;
+        color: #D4F4DD;
+
+    }
+
+    &__text {
+        text-align: center;
+        margin: 8px auto;
+        width: 80%;
+        font-size: 1rem
+    }
+
+    &__link {
+        font-family: sans-serif;
+        text-align: center;
+        margin: 20px;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 0.9rem;
+        border: #44344F solid;
+        width: 30%;
+        align-self: center;
+
+    }
+
+    &__link span {
+        color: #D4F4DD;
+    }
+
+}
+
+.familias__h3 {
+    text-align: center;
+    margin-top: 100px;
+    text-decoration: underline;
+}
+
+@media (min-width:340px) and (max-width:1200px) {
+
+    .forma-parte {
+        height: auto;
+        width: 70%;
+        align-self: center;
+
+
+        &__link {
+            width: 60%;
+            align-self: center;
+
+        }
+
+    }
+
+    .familias {
+
+        width: 95%;
+        height: auto;
+        margin: auto;
+        overflow: auto;
+
+
+
+        & h3 {
+            margin: 20px;
+            padding: 0;
+
+
+
+        }
+
+        &__adopcion {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            flex-wrap: wrap;
+            margin: auto;
+            transition-delay: none;
+
+
+        }
+
+        &__adopcion div {
+            display: flex;
+            width: auto;
+            height: auto;
+        }
+    }
+}
+
+@media (max-width:500px) {
+
+    .familias__adopcion {
+        display: flex;
+        flex-direction: column;
+    }
+}

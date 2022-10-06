@@ -1,0 +1,10 @@
+#carouselExampleIndicators {
+    max-width: 600px;
+}
+
+@media (min-width:340px) and (max-width:1200px) {
+
+    .carousel.carousel.slide.fam {
+        width: 70%;
+    }
+}

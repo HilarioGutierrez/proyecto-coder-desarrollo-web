@@ -1,0 +1,21 @@
+.quienes__somos--img3 {
+    max-width: 300px;
+
+}
+
+
+.marcas {
+    &__ayuda{
+    background-color: #B4ADEA;
+    border-radius: 20px;
+    border: #44344f67 solid;
+    width: 80%;
+    }
+
+&__ayuda--img {
+    max-width: 120px;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+}

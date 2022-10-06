@@ -1,0 +1,24 @@
+.div_flecha-arriba {
+    position: sticky;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flecha-arriba {
+    border: solid;
+    border-radius: 100px;
+    margin: 20px;
+    background-color: #B4ADEA;
+    align-self: center;
+
+}
+
+@media (max-width:600px) {
+
+    .flecha-arriba {
+        width: 40px;
+        height: 40px;
+    }
+}
