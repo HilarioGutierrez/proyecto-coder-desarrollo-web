@@ -326,34 +326,11 @@ h2 span {
     width: 70%;
   }
 }
-.div_flecha-arriba {
-  position: sticky;
-  bottom: 0;
-  right: 0;
-  display: flex;
-  justify-content: flex-end;
-}
-
 .flecha-arriba {
-  border: #5B4E77 solid;
-  border-radius: 100px;
-  margin: 15px;
-  align-self: center;
-  box-shadow: black 10px 10px 80px;
+  border-radius: 10px;
+  border-top: 1px;
 }
 
-.btn:hover {
-  border: #5B4E77 solid;
-  box-shadow: #5B4E77 2px 2px 5px;
-  transition: 0.2s;
-}
-
-@media (max-width: 600px) {
-  .flecha-arriba {
-    width: 40px;
-    height: 40px;
-  }
-}
 .footer {
   background-color: #44344F;
   height: 30%;
@@ -443,7 +420,7 @@ footer iframe {
   margin: auto;
 }
 
-.adopcion__tarjeta {
+.adopcion_tarjeta {
   display: flex;
   flex-flow: column;
   width: 300px;
@@ -454,35 +431,46 @@ footer iframe {
   font-size: 1rem;
   background: linear-gradient(45deg, rgba(14, 124, 122, 0.603) 0%, rgba(180, 173, 234, 0.6) 69%, rgba(91, 78, 119, 0.6) 100%);
   box-shadow: 2px 1px 20px #090446;
-  animation-name: tarjetas;
-  animation-duration: 4s;
-  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  -webkit-animation: enrtada 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: enrtada 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
-.adopcion__tarjeta img {
+.adopcion_tarjeta img {
   width: 250px;
   height: 180px;
   align-self: center;
 }
-@keyframes tarjetas {
+@-webkit-keyframes entrada {
   0% {
-    transform: rotate(0deg);
-    transform: translate(100px);
-  }
-  50% {
-    transform: rotate(-2deg);
+    -webkit-transform: translateZ(-200px) rotate(45deg);
+    transform: translateZ(-200px) rotate(45deg);
+    opacity: 0;
   }
   100% {
-    transform: rotate(0deg);
+    -webkit-transform: translateZ(0) rotate(0);
+    transform: translateZ(0) rotate(0);
+    opacity: 1;
   }
 }
-.adopcion__tarjeta h3 {
+@keyframes entrada {
+  0% {
+    -webkit-transform: translateZ(-200px) rotate(45deg);
+    transform: translateZ(-200px) rotate(45deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0) rotate(0);
+    transform: translateZ(0) rotate(0);
+    opacity: 1;
+  }
+}
+.adopcion_tarjeta h3 {
   font-family: "rubik", sans-serif;
 }
-.adopcion__tarjeta p {
+.adopcion_tarjeta p {
   text-align: justify;
   margin: 10px;
 }
-.adopcion__tarjeta a {
+.adopcion_tarjeta a {
   align-self: center;
   border: #5B4E77 solid;
   background-color: #5B4E77;
@@ -490,23 +478,13 @@ footer iframe {
   margin: 10px;
   padding: 5px;
 }
-.adopcion__tarjeta a:hover {
+.adopcion_tarjeta a:hover {
   font-size: 1rem;
   font-style: italic;
   color: #5B4E77;
   background-color: #D4F4DD;
   box-shadow: 4px 3px 8px #090446;
   transition: 0.2s;
-}
-
-.tarjeta-1 {
-  transform: rotate(10deg);
-  transition: 0.2s;
-}
-.tarjeta-1-2 {
-  transform: rotate(10deg);
-  transition: 1s;
-  transition-delay: 1s;
 }
 
 .form_adopcion {

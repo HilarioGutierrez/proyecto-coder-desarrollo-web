@@ -1,19 +1,33 @@
-.div_flecha-arriba {
+
+
+    .div_flecha-arriba {
     position: sticky;
     bottom: 0;
     right: 0;
     display: flex;
     justify-content: flex-end;
+
 }
+
 
 .flecha-arriba {
-    border: solid;
+    border: #5B4E77 solid;
     border-radius: 100px;
-    margin: 20px;
-    background-color: #B4ADEA;
+    margin: 15px;
     align-self: center;
+    box-shadow: black 10px 10px 80px;
+
+
 
 }
+
+.btn:hover {
+    border: #5B4E77 solid ;
+    box-shadow:  #5B4E77 2px 2px 5px;
+    transition: 0.2s;
+}
+
+
 
 @media (max-width:600px) {
 
@@ -22,3 +36,4 @@
         height: 40px;
     }
 }
+
