@@ -1,30 +1,30 @@
 /* --- NAVBAR / HAMBURGUESA --- */
+nav div.container{
+    background-color: $color-principal;
+}
+
 
 .navbar.fixed-top {
-    background-color: #b4adead7;
+    background-color: $color-secundario;
 }
 
 .nombre-page {
-    font-family: 'antonio', cursive;
+    font-family: $font-navbar;
     font-size: 1.5rem;
     color: rgb(0, 0, 0);
     
 }
 
 .nav {
-    &-bar {
-        background-color: #d4f4ddd2;
-    
-    }
 
 
     &-item {
-        font-family: 'Antonio', sans-serif;
+        font-family: $font-navbar;
         font-size: 1.3rem;
     }
 
     &-item :hover {
-        color: #0E7C7B;
+        color: $color-navbar-hover;
     }
 
 }
@@ -34,19 +34,15 @@
 }
 
 
-.offcanvas {
-
-    &-header {
-        background-color: #3a00866d;
-    
-    &-body{
-        background-color: #0E7C7B;
+.offcanvas-header {
+        background-color: $color-secundario;
     }
 
-}
-}
+@media (max-width:991px) {
 
-.offcanvas-body {
-    background-color: #d4f4ddd2;
+    .offcanvas-body {
+        background-color: $color-principal;
+    }
+
 }
 

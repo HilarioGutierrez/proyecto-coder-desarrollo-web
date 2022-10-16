@@ -14,11 +14,11 @@
 footer {
 
     a:link {
-        color: #D4F4DD;
+        color: $color-principal;
     }
 
     a:visited {
-        color: #D4F4DD;
+        color: $color-principal;
     }
 
     ul {
@@ -34,7 +34,7 @@ footer {
     }
 
     i {
-        color: #D4F4DD;
+        color: $color-principal;
         padding: 10px;
 
     }

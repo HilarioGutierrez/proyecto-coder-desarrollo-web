@@ -1,0 +1,24 @@
+.accordion-body{
+    background-color: $color-secundario;
+    color: $color-terciario;
+    
+
+}
+
+
+#desplegable-encabezado{
+    background-color: $color-secundario;
+    
+    
+
+}
+
+button.accordion-button{
+    background-color:$color-secundario;
+}
+
+button > i > span{
+
+color: $color-navbar-hover;
+
+}

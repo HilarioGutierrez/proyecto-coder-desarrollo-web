@@ -1,10 +1,11 @@
+
 .donacion__background {
-    background-color: #0E7C7B;
+    background-color: $color-navbar-hover;
     height: auto;
     text-align: center;
     font-size: 1rem;
-    color: #D4F4DD;
-    font-family: 'Mukta', sans-serif;
+    color: white;
+    font-family: $texto-2;
     border-radius: 600px 5px / 50px 30px;
     border: #44344F;
     border-color: 43281C;
@@ -26,7 +27,7 @@ h4 {
 .modal-ayuda {
     background-color: #b4adea8f;
     font-size: 1rem;
-    font-family: 'mukta', sans-serif;
+    font-family: $texto-2;
     color: black;
     width: 40%;
     border-radius: 30px;
@@ -128,7 +129,7 @@ h4 {
 
 
 hr {
-    background-color: #B4ADEA;
+    background-color: $color-secundario;
     width: 80%;
     margin: auto;
     height: 5px;

@@ -7,7 +7,8 @@
 }
 
 body {
-    background-color: #d4f4dd9f;
+    background-color: $color-principal;
+    ;
 
 
 }
@@ -26,14 +27,14 @@ a:visited {
 }
 
 p {
-    font-family: 'Rubik', sans-serif;
+    font-family: $texto-1;
 }
 
 h2 {
 
     font-size: 2.5rem;
-    color: #5B4E77;
-    font-family: 'Quicksand', sans-serif;
+    color: $color-terciario;
+    font-family: $Texto-title;
     font-weight: bold;
     padding: 15px;
     margin: 0 40px;
@@ -44,9 +45,9 @@ h2 {
 
 h3 {
     font-size: 1.5rem;
-    font-family: 'Quicksand', sans-serif;
+    font-family: $Texto-title;
     font-style: italic;
-    color: #5B4E77;
+    color: $color-terciario;
     padding: 15px;
 }
 

@@ -10,12 +10,11 @@
     font-size: 1rem;
     background: linear-gradient(45deg, rgba(14, 124, 122, 0.603) 0%, rgba(180, 173, 234, 0.6) 69%, rgba(91, 78, 119, 0.600) 100%);
     box-shadow: 2px 1px 20px #090446;
-    // -webkit-animation: enrtada 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    // animation: enrtada 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
     animation-name: tarjetas;
     animation-duration: 4s;
     animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
-    
+
 
 
 
@@ -43,43 +42,8 @@
 
     }
 
-
-
-    // @-webkit-keyframes entrada {
-    //     0% {
-    //         -webkit-transform: translateZ(-200px) rotate(45deg);
-    //         transform: translateZ(-200px) rotate(45deg);
-    //         opacity: 0;
-    //     }
-
-    //     100% {
-    //         -webkit-transform: translateZ(0) rotate(0);
-    //         transform: translateZ(0) rotate(0);
-    //         opacity: 1;
-    //     }
-    // }
-
-    // @keyframes entrada {
-    //     0% {
-    //         -webkit-transform: translateZ(-200px) rotate(45deg);
-    //         transform: translateZ(-200px) rotate(45deg);
-    //         opacity: 0;
-    //     }
-
-    //     100% {
-    //         -webkit-transform: translateZ(0) rotate(0);
-    //         transform: translateZ(0) rotate(0);
-    //         opacity: 1;
-    //     }
-    // }
-
-
-
-
-
-
     & h3 {
-        font-family: 'rubik', sans-serif;
+        font-family: $texto-1;
     }
 
     & p {
@@ -90,9 +54,9 @@
 
     & a {
         align-self: center;
-        border: #5B4E77 solid;
-        background-color: #5B4E77;
-        color: #D4F4DD;
+        border: $color-terciario solid;
+        background-color: $color-terciario;
+        color: $color-principal;
         margin: 10px;
         padding: 5px;
 
@@ -101,8 +65,8 @@
     & a:hover {
         font-size: 1rem;
         font-style: italic;
-        color: #5B4E77;
-        background-color: #D4F4DD;
+        color: $color-terciario;
+        background-color: $color-principal;
         box-shadow: 4px 3px 8px #090446;
         transition: 0.2s;
     }

@@ -11,7 +11,7 @@
 
 
 .flecha-arriba {
-    border: #5B4E77 solid;
+    border: $color-terciario solid;
     border-radius: 100px;
     margin: 15px;
     align-self: center;
@@ -22,8 +22,8 @@
 }
 
 .btn:hover {
-    border: #5B4E77 solid ;
-    box-shadow:  #5B4E77 2px 2px 5px;
+    border: $color-terciario solid ;
+    box-shadow:  $color-terciario 2px 2px 5px;
     transition: 0.2s;
 }
 

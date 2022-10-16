@@ -73,19 +73,20 @@ h3 {
   }
 }
 /* --- NAVBAR / HAMBURGUESA --- */
+nav div.container {
+  background-color: rgba(212, 244, 221, 0.6235294118);
+}
+
 .navbar.fixed-top {
   background-color: rgba(180, 173, 234, 0.8431372549);
 }
 
 .nombre-page {
-  font-family: "antonio", cursive;
+  font-family: "Antonio", sans-serif;
   font-size: 1.5rem;
   color: rgb(0, 0, 0);
 }
 
-.nav-bar {
-  background-color: rgba(212, 244, 221, 0.8235294118);
-}
 .nav-item {
   font-family: "Antonio", sans-serif;
   font-size: 1.3rem;
@@ -99,23 +100,21 @@ h3 {
 }
 
 .offcanvas-header {
-  background-color: rgba(58, 0, 134, 0.4274509804);
-}
-.offcanvas-header-body {
-  background-color: #0E7C7B;
+  background-color: rgba(180, 173, 234, 0.8431372549);
 }
 
-.offcanvas-body {
-  background-color: rgba(212, 244, 221, 0.8235294118);
+@media (max-width: 991px) {
+  .offcanvas-body {
+    background-color: rgba(212, 244, 221, 0.6235294118);
+  }
 }
-
 .donacion__background {
   background-color: #0E7C7B;
   height: auto;
   text-align: center;
   font-size: 1rem;
-  color: #D4F4DD;
-  font-family: "Mukta", sans-serif;
+  color: white;
+  font-family: "makuta", sans-serif;
   border-radius: 600px 5px/50px 30px;
   border: #44344F;
   border-color: 43281C;
@@ -136,7 +135,7 @@ h4 {
 .modal-ayuda {
   background-color: rgba(180, 173, 234, 0.5607843137);
   font-size: 1rem;
-  font-family: "mukta", sans-serif;
+  font-family: "makuta", sans-serif;
   color: black;
   width: 40%;
   border-radius: 30px;
@@ -224,12 +223,8 @@ h4 {
   max-width: 400px;
 }
 
-.text-justify {
-  text-align: justify;
-}
-
 hr {
-  background-color: #B4ADEA;
+  background-color: rgba(180, 173, 234, 0.8431372549);
   width: 80%;
   margin: auto;
   height: 5px;
@@ -361,6 +356,13 @@ h2 span {
     height: 40px;
   }
 }
+#form_enviar_btn {
+  height: auto;
+  width: 100px;
+  background-color: rgba(180, 173, 234, 0.8431372549);
+  border: #0E7C7B solid;
+}
+
 .footer {
   background-color: #44344F;
   height: 30%;
@@ -373,10 +375,10 @@ h2 span {
 }
 
 footer a:link {
-  color: #D4F4DD;
+  color: rgba(212, 244, 221, 0.6235294118);
 }
 footer a:visited {
-  color: #D4F4DD;
+  color: rgba(212, 244, 221, 0.6235294118);
 }
 footer ul {
   list-style: none;
@@ -388,7 +390,7 @@ footer ul li {
   padding: 5px;
 }
 footer i {
-  color: #D4F4DD;
+  color: rgba(212, 244, 221, 0.6235294118);
   padding: 10px;
 }
 footer iframe {
@@ -428,7 +430,7 @@ footer iframe {
 }
 
 .marcas__ayuda {
-  background-color: #B4ADEA;
+  background-color: rgba(180, 173, 234, 0.8431372549);
   border-radius: 20px;
   border: rgba(68, 52, 79, 0.4039215686) solid;
   width: 80%;
@@ -483,7 +485,7 @@ footer iframe {
   }
 }
 .adopcion__tarjeta h3 {
-  font-family: "rubik", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 .adopcion__tarjeta p {
   text-align: justify;
@@ -493,7 +495,7 @@ footer iframe {
   align-self: center;
   border: #5B4E77 solid;
   background-color: #5B4E77;
-  color: #D4F4DD;
+  color: rgba(212, 244, 221, 0.6235294118);
   margin: 10px;
   padding: 5px;
 }
@@ -501,7 +503,7 @@ footer iframe {
   font-size: 1rem;
   font-style: italic;
   color: #5B4E77;
-  background-color: #D4F4DD;
+  background-color: rgba(212, 244, 221, 0.6235294118);
   box-shadow: 4px 3px 8px #090446;
   transition: 0.2s;
 }
@@ -532,7 +534,7 @@ footer iframe {
   width: 200px;
   margin: 10px;
   padding: 5px;
-  font-family: "mukta", sans-serif;
+  font-family: "makuta", sans-serif;
   color: #43281C;
 }
 
@@ -551,7 +553,6 @@ div.recibir-noticias {
 label.adopcion__noticias--label {
   width: 100%;
   padding: 10px;
-  /* justify-self: center; */
   font-size: 0.8rem;
 }
 
@@ -591,13 +592,6 @@ label.adopcion__noticias--label {
   width: 300px;
 }
 
-#form_enviar_btn {
-  height: auto;
-  width: 100px;
-  background-color: #B4ADEA;
-  border: #0E7C7B solid;
-}
-
 #form__noticias-si {
   width: auto;
 }
@@ -615,6 +609,22 @@ label.adopcion__noticias--label {
     height: 20px;
     width: 70%;
   }
+}
+.accordion-body {
+  background-color: rgba(180, 173, 234, 0.8431372549);
+  color: #5B4E77;
+}
+
+#desplegable-encabezado {
+  background-color: rgba(180, 173, 234, 0.8431372549);
+}
+
+button.accordion-button {
+  background-color: rgba(180, 173, 234, 0.8431372549);
+}
+
+button > i > span {
+  color: #0E7C7B;
 }
 
 /*# sourceMappingURL=styles.css.map */
