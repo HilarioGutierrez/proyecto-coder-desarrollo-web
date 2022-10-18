@@ -445,10 +445,6 @@ footer iframe {
   justify-content: space-between;
 }
 
-.text-justify {
-  text-align: justify;
-}
-
 .adopcion {
   display: flex;
   flex-flow: row;
