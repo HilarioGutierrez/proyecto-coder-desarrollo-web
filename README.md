@@ -73,4 +73,12 @@ En la consola, se trabajo con comandos tales como:
 
 Estos comandos fueron los mas utilizados entre todos los existentes. 
 
+>>>> ## SEO
+
+Aquí utilice las etiquetas TITLE y META DESCRIPTION para poder pocisionar la web en los navegadores utilizando en ellas palabras claves relacionadas a nuestra web.
+Tambien aplique textos simples de leer, trabajando en el contraste de las letras con el color de fondo. 
+
+La intencion es que la tipografia, el tamaño y el contenido sea facil de leer para brindarle una buena experiencia al usuairo.
+De la misma manera se busco que la navegacion sea facil y clara, para que el usuario siempre sea en que sección se encuentra y que cara boton indique hacia donde lo dirije. 
+
 
