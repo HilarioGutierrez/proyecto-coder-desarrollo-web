@@ -34,7 +34,7 @@ Entre otras.
 
 >> ### Conocimientos en CSS
 
-Aquí podremos observar la ultilización de los estilos de la web. Tanto sea colores, pocisión de imagenes y textos, tipografias, entre mas cosas que le den diseño al archivo HTML.
+Aquí podremos observar la ultilización de los estilos de la web. Tanto sea colores, posición de imagenes y textos, tipografias, entre mas cosas que le den diseño al archivo HTML.
 
 Lo aplicado es:
 
@@ -75,7 +75,7 @@ Estos comandos fueron los mas utilizados entre todos los existentes.
 
 >>>> ## SEO
 
-Aquí utilice las etiquetas TITLE y META DESCRIPTION para poder pocisionar la web en los navegadores utilizando en ellas palabras claves relacionadas a nuestra web.
+Aquí utilice las etiquetas TITLE y META DESCRIPTION para poder posicionar la web en los navegadores utilizando en ellas palabras claves relacionadas a nuestra web.
 Tambien aplique textos simples de leer, trabajando en el contraste de las letras con el color de fondo. 
 
 La intencion es que la tipografia, el tamaño y el contenido sea facil de leer para brindarle una buena experiencia al usuairo.
