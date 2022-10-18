@@ -53,6 +53,8 @@ Complementario a CSS se trabajo con **SASS**.
 
 En SASS apliqué *parcials* y dentro de cada uno el contenido necesario. A estos, se les dió **@import** en el archivo *main.scss* para que den estilo en la sincronización al CSS. 
 
+Tambien se utilizaron las *variables* para los colores y tipografias.
+
 >>>> ## Git
 
 A lo largo del trabajo se utilizó la consola **Git Bush** con usuario en **GitHub** para ir guardando en el repositorio a medida que se hacian cambios significantes. 
@@ -60,6 +62,7 @@ A lo largo del trabajo se utilizó la consola **Git Bush** con usuario en **GitH
 En la consola, se trabajo con comandos tales como:
 
 - ls
+- clear
 - git status
 - git add
 - git add .
