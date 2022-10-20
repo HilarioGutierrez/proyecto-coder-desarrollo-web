@@ -1,4 +1,3 @@
-
 .donacion__background {
     background-color: $color-navbar-hover;
     height: auto;
@@ -177,8 +176,8 @@ h2 span {
 
     &__link:hover {
         box-shadow: 1px 9px 9px $color-principal;
-    transform: scale(1.2);
-    transition: 0.5s;
+        transform: scale(1.2);
+        transition: 0.5s;
     }
 
 }

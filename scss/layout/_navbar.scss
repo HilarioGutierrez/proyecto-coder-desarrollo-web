@@ -1,5 +1,5 @@
 /* --- NAVBAR / HAMBURGUESA --- */
-nav div.container{
+nav div.container {
     background-color: $color-principal;
 }
 
@@ -12,7 +12,7 @@ nav div.container{
     font-family: $font-navbar;
     font-size: 1.5rem;
     color: rgb(0, 0, 0);
-    
+
 }
 
 .nav {
@@ -35,8 +35,8 @@ nav div.container{
 
 
 .offcanvas-header {
-        background-color: $color-secundario;
-    }
+    background-color: $color-secundario;
+}
 
 @media (max-width:991px) {
 
@@ -45,4 +45,3 @@ nav div.container{
     }
 
 }
-

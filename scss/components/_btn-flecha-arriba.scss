@@ -1,6 +1,4 @@
-
-
-    .div_flecha-arriba {
+.div_flecha-arriba {
     position: sticky;
     bottom: 0;
     right: 0;
@@ -25,8 +23,8 @@
 }
 
 .btn:hover {
-    border: $color-terciario solid ;
-    box-shadow:  $color-terciario 2px 2px 5px;
+    border: $color-terciario solid;
+    box-shadow: $color-terciario 2px 2px 5px;
     transition: 0.2s;
 }
 
@@ -39,4 +37,3 @@
         height: 40px;
     }
 }
-
