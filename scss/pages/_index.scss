@@ -24,18 +24,7 @@ h4 {
     text-decoration: underline;
 }
 
-.modal-ayuda {
-    background-color: #b4adea8f;
-    font-size: 1rem;
-    font-family: $texto-2;
-    color: black;
-    width: 40%;
-    border-radius: 30px;
-    border: none;
-    box-shadow: #3B0086 2px 2px 5px;
-    -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
-    animation: heartbeat 1.5s ease-in-out infinite both;
-}
+
 
 
 @-webkit-keyframes heartbeat {

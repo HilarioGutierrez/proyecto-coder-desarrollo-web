@@ -136,19 +136,6 @@ h4 {
   text-decoration: underline;
 }
 
-.modal-ayuda {
-  background-color: rgba(180, 173, 234, 0.5607843137);
-  font-size: 1rem;
-  font-family: "makuta", sans-serif;
-  color: black;
-  width: 40%;
-  border-radius: 30px;
-  border: none;
-  box-shadow: #3B0086 2px 2px 5px;
-  -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
-  animation: heartbeat 1.5s ease-in-out infinite both;
-}
-
 @-webkit-keyframes heartbeat {
   from {
     -webkit-transform: scale(1);
@@ -343,6 +330,9 @@ h2 span {
   right: 0;
   display: flex;
   justify-content: flex-end;
+  width: 100px;
+  margin-right: 10px;
+  margin-left: auto;
 }
 
 .flecha-arriba {
@@ -642,6 +632,31 @@ button.accordion-button {
 
 button > i > span {
   color: #5B4E77;
+}
+
+.modal-ayuda {
+  background-color: rgba(180, 173, 234, 0.5607843137);
+  font-size: 1rem;
+  font-family: "makuta", sans-serif;
+  color: black;
+  width: 40%;
+  border-radius: 30px;
+  border: none;
+  box-shadow: #3B0086 2px 2px 5px;
+  -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+  animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+.modal-body {
+  background-color: rgba(212, 244, 221, 0.6235294118);
+}
+
+.modal-footer {
+  background-color: rgba(212, 244, 221, 0.6235294118);
+}
+
+.modal-header {
+  background-color: rgba(180, 173, 234, 0.8431372549);
 }
 
 /*# sourceMappingURL=styles.css.map */
