@@ -1,16 +1,15 @@
 .form_contacto {
     display: flex;
     flex-direction: column;
-
     font-family: $texto-2;
     color: #43281C;
-    max-width: 600px;
+    width: 100%;
 
     & div {
         display: flex;
         flex-flow: column;
         width: 80%;
-        max-width: 400px;
+        max-width: 800px;
         margin: 10px;
         padding: 5px;
     }
@@ -18,14 +17,14 @@
     & input {
         height: 20px;
         width: 100%;
-        max-width: 250px;
+        max-width: 300px;
     }
 
     & select {
         height: 20px;
         width: 100%;
-        max-width: 250px;
-
+        max-width: 400px;
+        
     }
 
     & .div_noticias {
@@ -38,7 +37,7 @@
 }
 
 #form__noticias-si {
-    width: auto;
+    max-width: 15px;
 }
 
 .noticias-label {
@@ -54,6 +53,17 @@ textarea {
     max-height: 300px;
 }
 
+.iframe-contacto {
+    width: 80%;
+    height: 400px;
+}
+
+.recibir-noticias{
+width: 80%;
+min-width: 300px;
+
+
+}
 @media (max-width:600px) {
 
     .form_contacto {
@@ -66,5 +76,10 @@ textarea {
             height: 20px;
             width: 70%;
         }
+    }
+
+    .iframe-contacto {
+        width: 80%;
+        height: 300px;
     }
 }
