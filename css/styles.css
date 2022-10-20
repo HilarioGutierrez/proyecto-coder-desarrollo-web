@@ -276,6 +276,11 @@ h2 span {
 .forma-parte__link span {
   color: #D4F4DD;
 }
+.forma-parte__link:hover {
+  box-shadow: 1px 9px 9px rgba(212, 244, 221, 0.6235294118);
+  transform: scale(1.2);
+  transition: 0.5s;
+}
 
 .familias__h3 {
   text-align: center;
@@ -371,7 +376,7 @@ h2 span {
   background-color: #44344F;
   height: 30%;
   font-family: "Montserrat", sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   display: flex;
   flex-flow: row;
   align-items: center;
@@ -417,11 +422,6 @@ footer iframe {
   }
   iframe {
     width: 30%;
-  }
-}
-@media (max-width: 600px) {
-  footer div ul li {
-    font-size: 0.7rem;
   }
 }
 @media (max-width: 500px) {
@@ -574,21 +574,25 @@ label.adopcion__noticias--label {
   flex-direction: column;
   font-family: "makuta", sans-serif;
   color: #43281C;
+  max-width: 600px;
 }
 .form_contacto div {
   display: flex;
   flex-flow: column;
   width: 80%;
+  max-width: 400px;
   margin: 10px;
   padding: 5px;
 }
 .form_contacto input {
   height: 20px;
-  width: 30%;
+  width: 100%;
+  max-width: 250px;
 }
 .form_contacto select {
   height: 20px;
-  width: 30%;
+  width: 100%;
+  max-width: 250px;
 }
 .form_contacto .div_noticias {
   display: flex;
@@ -602,6 +606,15 @@ label.adopcion__noticias--label {
 
 .noticias-label {
   font-size: 0.8rem;
+}
+
+textarea {
+  width: 100%;
+}
+
+#mensaje-adicional {
+  max-width: 500px;
+  max-height: 300px;
 }
 
 @media (max-width: 600px) {

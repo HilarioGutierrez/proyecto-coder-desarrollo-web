@@ -1,0 +1,70 @@
+.form_contacto {
+    display: flex;
+    flex-direction: column;
+
+    font-family: $texto-2;
+    color: #43281C;
+    max-width: 600px;
+
+    & div {
+        display: flex;
+        flex-flow: column;
+        width: 80%;
+        max-width: 400px;
+        margin: 10px;
+        padding: 5px;
+    }
+
+    & input {
+        height: 20px;
+        width: 100%;
+        max-width: 250px;
+    }
+
+    & select {
+        height: 20px;
+        width: 100%;
+        max-width: 250px;
+
+    }
+
+    & .div_noticias {
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+
+    }
+
+}
+
+#form__noticias-si {
+    width: auto;
+}
+
+.noticias-label {
+    font-size: 0.8rem;
+}
+
+textarea {
+    width: 100%;
+}
+
+#mensaje-adicional {
+    max-width: 500px;
+    max-height: 300px;
+}
+
+@media (max-width:600px) {
+
+    .form_contacto {
+        input {
+            height: 20px;
+            width: 70%;
+        }
+
+        & select {
+            height: 20px;
+            width: 70%;
+        }
+    }
+}

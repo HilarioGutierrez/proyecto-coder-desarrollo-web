@@ -183,6 +183,13 @@ h2 span {
 
     &__link span {
         color: #D4F4DD;
+
+    }
+
+    &__link:hover {
+        box-shadow: 1px 9px 9px $color-principal;
+    transform: scale(1.2);
+    transition: 0.5s;
     }
 
 }

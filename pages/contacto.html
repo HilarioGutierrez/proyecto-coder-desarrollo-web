@@ -37,6 +37,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
 
+    <!-- font footer -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,9 +51,9 @@
     <!-- Iconos  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
-        <!-- Descripcion -->
+    <!-- Descripcion -->
 
-        <meta name="description"
+    <meta name="description"
         contain="Contactate con el Refugio Cuatro Patas para denuncio de maltrato animal, colaborar en el refugio o para lo que necesites, nosotros te leemos. ">
 
     <title>Refugio Cuatro Patas | Contactate con nosotros, ayudamos a tu mascota!</title>
@@ -101,56 +106,57 @@
     <main>
 
         <h2>Contactate con nosotros</h2>
+        
+            <form action="" class="form_contacto">
 
-        <form action="" class="form_contacto">
+                <div>
+                    <label for="nombre" class="form_label">Nombre</label>
+                    <input class="" type="text" name="nombre-usuario" id="form__nombre">
+                </div>
 
-            <div>
-                <label for="nombre" class="form_label">Nombre</label>
-                <input class="" type="text" name="nombre-usuario" id="form__nombre">
-            </div>
+                <div>
+                    <label for="apellido" class="form_label">Apellido</label>
+                    <input type="text" name="apellido-usuario" id="form__apellido">
+                </div>
 
-            <div>
-                <label for="apellido" class="form_label">Apellido</label>
-                <input type="text" name="apellido-usuario" id="form__apellido">
-            </div>
+                <div><label for="email" class="form_label"></label>Email
+                    <input type="email" name="email" id="form__email">
+                </div>
 
-            <div><label for="email" class="form_label"></label>Email
-                <input type="email" name="email" id="form__email">
-            </div>
+                <div>
+                    <label for="telefono" class="form_label">Telefono</label>
+                    <input type="tel" name="telefono " id="form_telefono">
+                </div>
 
-            <div>
-                <label for="telefono" class="form_label">Telefono</label>
-                <input type="tel" name="telefono " id="form_telefono">
-            </div>
+                <div>
+                    <label for="motivo" class="form_label">Motivo del contacto</label>
+                    <select name="" id="">
+                        <option value="denuncia">Denuncia de maltrato animal</option>
+                        <option value="como-ayudar">Quiero ayudar en el refugio</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
 
-            <div>
-                <label for="motivo" class="form_label">Motivo del contacto</label>
-                <select name="" id="">
-                    <option value="denuncia">Denuncia de maltrato animal</option>
-                    <option value="como-ayudar">Quiero ayudar en el refugio</option>
-                    <option value="otro">Otro</option>
-                </select>
-            </div>
+                <div>
+                    <textarea name="mensaje-adicional" id="mensaje-adicional" cols="1" rows="20"
+                        placeholder="Déjanos tu mensaje"></textarea>
 
-            <div>
-                <textarea name="mensaje-adicional" id="mensaje-adiocional" cols="1" rows="20"
-                    placeholder="Déjanos tu mensaje"></textarea>
+                </div>
 
-            </div>
+                <div class="recibir-noticias container d-flex flex-row align-items-center m-0 p-0 w-75">
 
-            <div class="recibir-noticias container d-flex flex-row align-items-center m-0 p-0 w-75">
+                    <input class="m-3" type="checkbox" name="noticias" id="form__noticias-si">
 
-                <input class="m-3" type="checkbox" name="noticias" id="form__noticias-si">
+                    <label class="noticias-label" for="notcias">¿Desea recibir noticias del refugio?</label>
 
-                <label class="noticias-label" for="notcias">¿Desea recibir noticias del refugio?</label>
+                </div>
 
-            </div>
+                <div>
+                    <input class="btn" type="submit" value="Enviar" id="form_enviar_btn">
+                </div>
+            </form>
 
-            <div>
-                <input class="btn" type="submit" value="Enviar" id="form_enviar_btn">
-            </div>
-        </form>
-
+            
     </main>
 
     <div class="div_flecha-arriba">

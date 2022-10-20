@@ -2,7 +2,7 @@
     background-color: #44344F;
     height: 30%;
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     display: flex;
     flex-flow: row;
     align-items: center;
@@ -33,6 +33,7 @@ footer {
 
     }
 
+
     i {
         color: $color-principal;
         padding: 10px;
@@ -45,8 +46,6 @@ footer {
     }
 
 }
-
-
 
 
 @media (min-width:340px) and (max-width:1200px) {
@@ -75,11 +74,6 @@ footer {
     }
 }
 
-@media (max-width:600px) {
-    footer div ul li {
-        font-size: 0.7rem;
-    }
-}
 
 @media (max-width:500px) {
     iframe {
