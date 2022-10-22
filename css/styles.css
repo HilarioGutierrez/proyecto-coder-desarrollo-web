@@ -423,7 +423,7 @@ footer iframe {
   }
 }
 @media (max-width: 500px) {
-  iframe {
+  .iframe-footer {
     display: none;
   }
 }
@@ -637,6 +637,7 @@ textarea {
   .iframe-contacto {
     width: 80%;
     height: 300px;
+    display: block;
   }
 }
 .accordion-body {
